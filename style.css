@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.top {
+    width: 100%;
+    float: left;
+    padding-bottom: 13px;
+    border-bottom: 0.1px solid rgb(214, 214, 214);
+
+}
+
+.top a {
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.location {
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding-right: 20px;
+    border-right: 0.1px solid rgb(214, 214, 214);
+}
+
+.language {
+    float: left;
+    margin-left: 20px;
+}
+
+.image-txt-container-2 {
+    display: flex;
+    margin: 0;
+    width: 185px;
+    float: left;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.cs {
+    float: right;
+    margin-right: 10px;
+}
+
+.image-txt-container {
+    display: flex;
+    margin: 0;
+    width: 190px;
+    float: right;
+    flex-direction: row;
+    margin-top: 15px;
+    color:black;
+    text-decoration: none;
+    padding-right: 30px;
+  }
+
+.line {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: 1px black;
+    text-align: center;
+    font-size: 10px;
+}
+
+.line a {
+    color:black;
+    text-decoration: none;
+}
+
+.x {
+    float:right;
+    padding-right: 30px;
+}
+
+
+p {
+    width:100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+p1 {
+    width:100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.sidebyside a {
+    color:black;
+    font-size: 20px;
+    display:inline-block;
+    padding: 7px;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.sidebyside a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    float: right;
+    margin-right: 10px;
+}
+
+.profile {
+    float: right;
+    margin-right: 20px;
+}
+
+.heart {
+    float: right;
+    margin-right: 20px;
+}
+
+.shop-bag {
+    float: right;
+    margin-right: 240px;
+}
+
+.image-txt-container-3 {
+    display: flex;
+    margin: 0;
+    width: 15px;
+    float: right;
+    flex-direction: row;
+    margin-top: 20px;
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 85px;
+    border-right: 0.1px solid rgb(214, 214, 214);
+  }
+
+.image-txt-container-4 {
+    display: flex;
+    margin: 0;
+    width: 15px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+.image-txt-container-5, .image-txt-container-6 {
+    display: flex;
+    margin: 0;
+    width: 15px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+  }
+
+.image-txt-container-6 {
+    display: flex;
+    margin: 0;
+    width: 15px;
+    float: right;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 40px;
+    color:black;
+    text-decoration: none;
+  }
+
+
+.container {
+    width: 100%;
+    padding-left: 10px;
+}
+
+header {
+    width: 100%;
+    padding-bottom: 10px;
+    background: #FFFF;
+    border-bottom: 0.1px solid rgb(184, 184, 184);
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 22px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+    font-style:inherit;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: #ddd;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.column {
+    float: left;
+    width: 900px;
+    min-height: 1322px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+.column a {
+    color:black;
+    font-size: 13px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.ad {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.ad a {
+    color:black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.ad a:hover {
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+
+.world {
+    color: white;
+    background-color: black;
+    padding-bottom: 150px;
+}
+
+.world a {
+    color: white;
+    font-size: 16px;
+}
+
+.world a:hover {
+    text-decoration:underline;
+    color: rgb(184, 184, 184);
+}
+
+.world p {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.explore {
+    background-color: black;
+    width: 100%;
+}
+
+.explore2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+
+.explore img {
+    display:inline-block;
+    padding: 20px;
+}
+
+.explore2 img {
+    display:inline-block;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.bottom {
+    background-color: rgb(238, 238, 238);
+    color:black;
+    width: 100%;
+}
+
+
+.menu1, .menu2, .menu3, .menu4 {
+    float:left;
+    padding-right: 200px;
+}
+
+.menu1 li, .menu2 li, .menu3 li, .menu4 li {
+    display: list-item;
+    text-align: left;
+    font-size: 13px;
+}
+
+.socials {
+    display:inline-block;
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    border-top: 0.1px solid rgb(214, 214, 214);
+    border-bottom: 0.1px solid rgb(214, 214, 214);
+}
+
+.float-child {
+    padding: 15px;
+    float: left;
+}
+
+.float-child2 {
+    float: right;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+.float-child2 p1 {
+    font-size: 13px;
+}
+
+.float-child2 a {
+    font-size: 13px;
+    color:black;
+    text-decoration: none;
+}
